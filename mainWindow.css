@@ -1,0 +1,13 @@
+header{
+    width: 100%;
+    position: sticky;
+}
+.livingroom{
+    display:flex;
+   
+}
+.photo{
+    width:100px;
+    height: 100px;
+
+}
