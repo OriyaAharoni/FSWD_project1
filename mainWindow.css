@@ -1,7 +1,6 @@
 header {
     width: 100%;
-    position: fixed;
-    
+    position: fixed; 
     
 }
 .image-container{
@@ -13,13 +12,13 @@ header {
 
 ul{ 
     list-style-type: none;
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #333;
     text-align: center;
-    margin: 30px auto;
-    padding: 0 20px;
+    /* margin:auto;
+    padding: auto; */
     
     
 }
