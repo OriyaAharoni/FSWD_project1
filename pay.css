@@ -1,0 +1,16 @@
+*{
+    font-family: Calibri;
+    background-color: gainsboro;
+}
+.details-container{
+    display:flex;
+    justify-content:space-around;
+}
+form{
+    margin:auto;
+}
+.confirm-button{
+   background-color:coral;
+   
+}
+
