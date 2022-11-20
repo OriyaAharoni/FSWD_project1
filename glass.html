@@ -7,18 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="photos.css" >
 </head>
-<body dir="rtl">
-    <heder>
+<body dir="rtl" class="grid-container">
+    <heder class="item1">
         <h2>תמונת זכוכית - אבסטרקט</h2>
     </heder>
-    <main>
-         <figure>
+         <figure class="item2">
             <img src="https://cashcow-cdn.azureedge.net/images/1fd9cd18-4ad1-4125-b6f9-8ff87b3477c0_500.webp"/>
             <figcaption>תמונת זכוכית </figcaption>
         </figure>
+        <div class="item3">
         <p><h3>תמונת זכוכית - אבסטרקט</h3> 
          התמונה מודפסת על זכוכית איכותית ומוכנה לתלייה
         <br>
+        </div>
+        <form action="pay.html" method="post" class="item4">
 
         יתכנו הבדלים קלים בין הצבעים המוצגים לבין צבעי התמונה בפועל
         </p>
@@ -32,7 +34,6 @@
             <input type="radio" id="shiny" value="shiny" name="finishing">
             <label for="shiny">גימור מבריק</label>
         </div>
-      <form action="pay.html" method="post">
         <h4>בחר גודל</h4>
         <div>
            <input type="radio" id="S" value="S" name="size">
@@ -46,6 +47,5 @@
         <button type="submit">לרכישת התמונה</button>
       </form>
 
-    </main>
 </body>
 </html>

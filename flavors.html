@@ -7,21 +7,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="photos.css" >
 </head>
-<body dir="rtl">
-    <heder>
+<body dir="rtl" class="grid-container">
+    <heder class="item1">
         <h2>טעמים ישראלים</h2>
     </heder>
-    <main>
-         <figure>
+   
+         <figure class="item2">
             <img src="https://tmuna.co/wp-content/uploads/2021/02/%D7%98%D7%A2%D7%9E%D7%99%D7%9D-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%9D-%D7%AA%D7%9E%D7%95%D7%A0%D7%94-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%D7%AA-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9C%D7%9E%D7%98%D7%91%D7%97-%D7%93%D7%92%D7%9D-968959-400x400.jpg"/>
             <figcaption>טעמים ישראלים על רקע שחור</figcaption>
         </figure>
+        <div class="item3">
         <p><h3>טעמים ישראלים </h3> 
-        .התמונה מודפסת על משטח קשיח, יש לחברה כאשר יש מרחק בין הקיר לתמונה 
+        התמונה מודפסת על משטח קשיח, יש לחברה כאשר יש מרחק בין הקיר לתמונה 
         <br>
 
         יתכנו הבדלים קלים בין הצבעים המוצגים לבין צבעי התמונה בפועל
         </p>
+       </div>
+       <form action="pay.html" method="post" class="item4">
 
         <h4>בחר גימור</h4>
         <div>
@@ -32,7 +35,6 @@
             <input type="radio" id="shiny" value="shiny" name="finishing">
             <label for="shiny">גימור מבריק</label>
         </div>
-      <form action="pay.html" method="post">
         <h4>בחר גודל</h4>
         <div>
            <input type="radio" id="S" value="S" name="size">
@@ -46,6 +48,5 @@
         <button type="submit">לרכישת התמונה</button>
       </form>
 
-    </main>
 </body>
 </html>
