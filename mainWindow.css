@@ -11,9 +11,10 @@ body{
 
 h1{
     text-align: center;
-    margin-top: 100px;
+    /* margin-top: 5em; */
     margin-bottom: 10px;
     color: rgb(3, 69, 84);
+    padding-top: 5em;
     
 }
 
@@ -102,7 +103,29 @@ table, td, th {
     font-size: 16px;
   }
 
+.contact{
+    font-size: 18px;
+    display:flex;
+    justify-content:center;
+    gap: 5em;
+}
 
+
+@media only screen and (max-width: 400px){
+  
+    .image-container{
+        display:flex;
+        /* margin-right: 50px; */
+        /* margin-right: auto;
+        margin-left: auto; */
+        justify-content:center;
+        flex-direction: column;
+       
+    }
+    .contact{
+        flex-direction: column;
+    }
+}
 
 /* table, th, td{
     border: 1px solid black;
