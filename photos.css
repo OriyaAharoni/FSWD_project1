@@ -28,10 +28,12 @@
     margin-left: 7em;
     text-align: center;
     
+    
   }
   img{
     border: 6px solid rgb(3,69,84);
     border-radius: 5px;
+    width: 30em;
  
   }
   .item3{
