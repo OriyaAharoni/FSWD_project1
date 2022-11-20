@@ -24,7 +24,10 @@ header {
 }
 .image-container{
     display:flex;
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    /* margin-right: auto;
+    margin-left: auto; */
+    justify-content:center;
     
 
    
