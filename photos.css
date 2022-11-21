@@ -57,12 +57,14 @@
     font-size:16px;
   }
   .logo{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     height: 0.1em;
-    right: 5em;
-    top:1em;
     position: absolute;
+    right:4em;
+    top:0em;
+    margin: 0.1em;
+    
    
   }
   .logo-photo{
