@@ -2,9 +2,7 @@
 *{
   font-family: Calibri;
   background-color: aliceblue;
-  color:rgb(3,69,84); ;
-    
-  
+  color:rgb(3,69,84); ; 
 }
 
 .grid-container {
@@ -58,6 +56,25 @@
   p{
     font-size:16px;
   }
+  .logo{
+    display: flex;
+    justify-content: center;
+    height: 0.1em;
+    right: 5em;
+    top:1em;
+    position: absolute;
+   
+  }
+  .logo-photo{
+    border: none;
+    border-radius:none;
+    margin-top: 5em;
+    width: 10em;
+    height: 5em;
+    object-fit: fill;
+    border: 4px dotted rgb(3, 69, 84);
+    border-radius: 50%;
+  }
 @media only screen and (max-width: 680px) {
   .item1{
     grid-column: 1;
@@ -92,8 +109,10 @@
  .grid-container{
   gap:3em;
  
+
   justify-content: center;
  }
+
   /* @media only screen  and (min-width: 680) and (max-width: 840)  {
   .item2{
     grid-column: 1 ;
@@ -134,4 +153,4 @@ button{
  }
   
 }
-   */
+  */
