@@ -76,15 +76,18 @@ li a {
   .logo{
     display: flex;
     justify-content: center;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    height: 3em;
+    
 }
 .logo-photo{
     border: none;
     border-radius:none;
-    width: 20em;
-    height: 10em;
+    margin-top: 5em;
+    width: 14em;
+    height: 7em;
     object-fit: fill;
+    border: 4px dotted rgb(3, 69, 84);
+    border-radius: 50%;
 }
 
 img {
