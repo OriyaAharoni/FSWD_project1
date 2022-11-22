@@ -126,6 +126,28 @@ table, td, th {
     gap: 5em;
 }
 
+.audio{
+    display:flex;
+    justify-content:center;
+    
+    
+    
+}
+
+.send{
+    display:flex;
+    justify-content:center;
+    
+    
+}
+
+
+/* audio{
+    display:flex;
+    justify-content:center;
+
+} */
+
 
 @media only screen and (max-width: 400px){
   
@@ -151,6 +173,11 @@ table, td, th {
         object-fit: cover;
         border: 6px solid rgb(3, 69, 84);
         border-radius: 5px;
+        
+    }
+
+    .logo{
+        padding-top: 4em;
         
     }
 }
