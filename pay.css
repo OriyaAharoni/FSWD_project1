@@ -60,11 +60,15 @@ form{
     }
 
 @media only screen and (max-width: 500px){
+     .personal-information{
+        margin-top: 6em;
+     }
     .confirm-button{
         bottom: 0.05em;
         left:2em;
         height: 3em;
         width: 6em;
+        
     }
     .logo{
         /* display: flex;
@@ -80,7 +84,7 @@ form{
       .logo-photo{
         border: none;
         border-radius:none;
-        margin-top: 1em;
+        margin-top: 2em;
         margin-right:50px;
       
         width: 10em;
