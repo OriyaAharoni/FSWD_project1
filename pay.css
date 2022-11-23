@@ -3,8 +3,9 @@
     background-color: aliceblue;
     color: rgb(3, 69, 84);
 }
+
 .details-container{
-    border: 5px solid rgb(3, 69, 84);
+  border: 5px solid rgb(3, 69, 84);
     display:flex;
     justify-content:center;
     flex-direction: column;
@@ -93,6 +94,12 @@ form{
         object-fit: fill;
         border: 4px dotted rgb(3, 69, 84);
         border-radius: 50%;
+      }
+      body{
+        border: 5px solid rgb(3, 69, 84);
+      }
+      .details-container{
+        border: none;
       }
       /* .details-container{
         margin-top: 4em;
