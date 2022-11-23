@@ -30,6 +30,7 @@
     border-radius: 5px;
     width: 400px;
     height: 400px;
+    object-fit: cover;
  
   }
   .item3{
@@ -47,7 +48,7 @@
   }
   button{
    margin-right: 8em;
-   margin-top: 3em;
+   margin-top: 2em;
     font-size:16px;
     background-color:rgb(3,69,84); 
     color:aliceblue;
