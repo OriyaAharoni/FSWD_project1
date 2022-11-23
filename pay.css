@@ -64,10 +64,11 @@ form{
         margin-top: 6em;
      }
     .confirm-button{
-        bottom: 0.05em;
+        /* bottom: 0.001em; */
         left:2em;
         height: 3em;
         width: 6em;
+        top: 46em;
         
     }
     .logo{
